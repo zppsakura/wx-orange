@@ -1,0 +1,7 @@
+<view class="container">
+  <image class='img' src='/images/welcome/1.jpg'></image>
+  <text class='txt'>Hello,橘子罐头</text>
+  <view class='wel-btn' catchtap='onTapJump'>
+    <text class='btn'>开启小程序之旅</text>
+  </view>
+</view>

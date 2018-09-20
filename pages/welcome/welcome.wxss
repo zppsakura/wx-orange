@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img{
+  width: 300rpx;
+  height: 300rpx;
+  margin-top: 120rpx;
+  border-radius: 200px;
+}
+.txt{
+  font-size: 26px;
+  font-family: serif;
+  margin-top: 100rpx;
+  font-weight: bold;
+  color: 
+}
+.wel-btn{
+  margin-top: 200rpx;
+  width: 280rpx;
+  height: 80rpx;
+  font-size: 32rpx;
+  border: 1px solid rgb(255, 165, 79);
+  background-color:  rgb(255, 165, 79);
+  border-radius: 10px;
+}
+.btn{
+  line-height: 80rpx;
+  padding-left: 28rpx;
+  color: #666
+}
+page{
+  background-color: #FFEFD5;
+}
