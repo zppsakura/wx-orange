@@ -1,69 +1,9 @@
+@import "post-item/post-item-tpl.wxss";
+
 .post-container{
   width: 100%;
 }
 .post-img{
   width: 100%;
 }
-.mid-line{
-  border: 1px dashed #EE9A49;
-  margin-top: 10rpx;
-}
-.mid-title{
-  display: flex;
-  flex-direction: row;
-  padding-left: 20rpx;
-}
-.mid-title .img{
-  margin-top: 10rpx;
-  width: 80rpx;
-  height: 80rpx;
-  border-radius: 50rpx;
-}
-.mid-title .txt{
-  color: #666;
-  font-size: 22px;
-  padding: 20rpx 40rpx;
-}
-.mid-message .title{
-  padding-left: 20rpx;
-}
-.img-container{
-  width: 100%;
-  height: 400rpx;
-}
-.img-container image{
-  width: 100%;
-  height: 400rpx;
-  margin-top: 20rpx;
-  
-}
-.content{
-  margin-top: 40rpx;
-  padding-left: 20rpx;
-}
-.message{
-  font-size: 16px;
-  color: #737373;
-}
-.footer{
-  padding-left: 20rpx;
-  margin-top: 20rpx;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.footer .img{
-  width: 20px;
-  height: 20px;
-  padding: 10rpx;
-}
-.footer .img2{
-  width: 20px;
-  height: 20px;
-  padding: 10rpx;
-  padding-left: 50rpx;
-  
-}
-.footer text{
-  font-size: 18px;
-}
+

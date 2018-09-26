@@ -1,0 +1,17 @@
+<view class = "container">
+  <image class='detail-img' src='{{post.contentImg}}'></image>
+  <view class='title'>
+    <text class='detail-title'>{{post.title}}</text>
+  </view>
+  <view class='data'>
+    <view class='mid'>
+      <image class='mid-img' src='{{post.titleImg}}'></image>
+      <text class='author'>{{post.author}}</text>
+    </view>
+    <text class='detail-time'>{{post.dataTime}}</text>
+  </view>
+  
+  <view class='article'>
+    <text>{{post.detail}}</text>
+  </view>
+</view>

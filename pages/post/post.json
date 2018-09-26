@@ -1,6 +1,6 @@
 {
-  "navigationBarBackgroundColor": "#FFC1C1",
   "navigationBarTitleText": "文章",
-  "navigationBarTextStyle": "black"
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#82D900"
   
 }

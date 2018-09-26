@@ -1,0 +1,24 @@
+<template name="postItemTpl">
+  <view class='post-mid'>
+    <view class='mid-line'></view>
+    <view class='mid-title'>
+      <image class='img' src="{{item.titleImg}}"></image>
+      <text class='txt'>{{item.data}}</text>
+    </view>
+    <view class='mid-message'>
+      <text class='title'>{{item.title}}</text>
+      <view class='img-container'>
+        <image class='img' src="{{item.contentImg}}"></image>
+      </view>
+      <view class="content">
+        <text class='message'>{{item.message}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <image class='img' src="{{item.eyeImg}}"></image>
+    <text>{{item.eyetxt}}</text>
+    <image class='img2' src="{{item.messageImg}}"></image>
+    <text>{{item.messagetxt}}</text>
+  </view>
+</template>
